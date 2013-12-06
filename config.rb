@@ -1,4 +1,5 @@
 activate :livereload
+activate :directory_indexes
 
 set :css_dir, 'stylesheets'
 
