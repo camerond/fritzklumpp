@@ -1,0 +1,32 @@
+!!! 5
+%html(lang="en-US")
+  %head
+    %title Triad Resources: Fritz Klumpp
+    %meta(charset="UTF-8")
+    %meta(name="viewport" content="width=device-width, initial-scale=1")
+    %link(href='http://fonts.googleapis.com/css?family=Noto+Serif' rel='stylesheet' type='text/css')
+    %link(href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css')
+    = stylesheet_link_tag "application"
+  %body
+    %header
+      .wrapper
+        %h1
+          = link_to 'William &ldquo;Fritz&rdquo; Klumpp', "/"
+        %h2
+          Coaching
+          %span •
+          Training
+          %span •
+          Personal Development
+        %nav
+          %ul
+            %li= link_to "Home", "/"
+            %li= link_to "Meet Fritz", "/meet-fritz"
+            %li= link_to "Coaching", "/coaching"
+            %li= link_to "Speaking", "/speaking"
+    %section.wrapper
+      = yield
+    %footer
+      .wrapper
+        %p= "&copy;#{Time.now().strftime('%Y')} Triad Resources"
+        %p= link_to "Contact Fritz", "/contact"
