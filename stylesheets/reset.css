@@ -1,0 +1,37 @@
+/* line 1, /Users/camerondaigle/Projects/fritzklumpp/source/stylesheets/reset.sass */
+ul, ol {
+  list-style: none; }
+
+/* line 3, /Users/camerondaigle/Projects/fritzklumpp/source/stylesheets/reset.sass */
+h1, h2, h3, h4, h5, h6, pre, code {
+  font-size: 1em; }
+
+/* line 5, /Users/camerondaigle/Projects/fritzklumpp/source/stylesheets/reset.sass */
+ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input, dl, dt, dd, figure, figcaption {
+  margin: 0;
+  padding: 0; }
+
+/* line 8, /Users/camerondaigle/Projects/fritzklumpp/source/stylesheets/reset.sass */
+a img, :link img, :visited img, fieldset {
+  border: none; }
+
+/* line 10, /Users/camerondaigle/Projects/fritzklumpp/source/stylesheets/reset.sass */
+address {
+  font-style: normal; }
+
+/* line 12, /Users/camerondaigle/Projects/fritzklumpp/source/stylesheets/reset.sass */
+header, section, article, nav, footer, hgroup, details, summary, figure, main {
+  display: block; }
+
+/* line 14, /Users/camerondaigle/Projects/fritzklumpp/source/stylesheets/reset.sass */
+mark {
+  color: inherit;
+  background: transparent; }
+
+/* line 17, /Users/camerondaigle/Projects/fritzklumpp/source/stylesheets/reset.sass */
+abbr {
+  border: none; }
+
+/* line 19, /Users/camerondaigle/Projects/fritzklumpp/source/stylesheets/reset.sass */
+summary::-webkit-details-marker {
+  display: none; }
