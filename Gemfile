@@ -1,6 +1,9 @@
 source 'http://rubygems.org'
 
-gem "middleman", "~>3.2.0"
+ruby '2.2.1'
+#ruby-gemset=fritzklumpp
+
+gem "middleman"
 gem "middleman-deploy"
 gem "middleman-livereload"
 gem "sass"
