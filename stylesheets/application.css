@@ -172,6 +172,10 @@ figure {
     font-size: 11px; }
 
 /* line 105, /Users/camerondaigle/Projects/fritzklumpp/source/stylesheets/application.css.sass */
+.copy a {
+  color: #003e81;
+  text-decoration: underline;
+}
 .copy h1, .copy h2 {
   font-size: 22px;
   color: #001d59;
@@ -254,6 +258,7 @@ figure {
     text-align: right; }
     /* line 169, /Users/camerondaigle/Projects/fritzklumpp/source/stylesheets/application.css.sass */
     #home article p.read_more a {
+      text-decoration: none;
       display: inline-block;
       background: #003ea1;
       color: #fff;
@@ -333,3 +338,28 @@ figure {
 /* line 221, /Users/camerondaigle/Projects/fritzklumpp/source/stylesheets/application.css.sass */
 #speaking > aside {
   overflow: hidden; }
+
+.book-callout {
+  clear: both;
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  justify-content: center;
+  margin: 2rem 0;
+}
+  .book-callout img {
+    max-width: 140px;
+  }
+
+  .book-callout div {
+    padding: 0 0 0 2rem;
+  }
+
+  .book-callout h1 {
+    font-size: 1.4em;
+  }
+
+  .book-callout a {
+    color: #003e81;
+    text-decoration: underline;
+  }
